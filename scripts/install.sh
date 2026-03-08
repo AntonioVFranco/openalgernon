@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-REPO_URL="https://github.com/openalgernon/openalgernon.git"
+REPO_URL="https://github.com/AntonioVFranco/openalgernon.git"
 INSTALL_DIR="${HOME}/.openalgernon"
 AGENTS_DIR="${HOME}/.claude/agents"
 SKILLS_DIR="${HOME}/.claude/skills"

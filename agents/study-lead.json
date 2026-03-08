@@ -1,0 +1,5 @@
+{
+  "name": "study-lead",
+  "description": "Leader of the study team. Routes study/review/texto/paper commands to session-agent, texto-agent, or card-generator-agent depending on the command and database state.",
+  "tools": ["Task", "Bash"]
+}

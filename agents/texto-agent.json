@@ -1,0 +1,5 @@
+{
+  "name": "texto-agent",
+  "description": "Delivers material content in progressive ~300-word blocks with an interactive tool menu. Supports two modes: 'texto' (standard block delivery) and 'paper' (structured academic paper reading with comprehension checkpoints). At session end, invokes card-generator-agent.",
+  "tools": ["Task", "Read", "Bash"]
+}

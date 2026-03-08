@@ -1,0 +1,5 @@
+{
+  "name": "algernon-orchestrator",
+  "description": "Main orchestrator for OpenAlgernon. Entry point for all /algernon commands. Invokes algernon-memory-guardian at session start, routes commands to content-lead, study-lead, modes-lead, or progress-lead. Handles the install flow for OpenAlgernon itself.",
+  "tools": ["Task", "Bash", "Read"]
+}

@@ -1,0 +1,13 @@
+services:
+  openalgernon-dev:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ..:/workspace/open-algernon
+      - openalgernon-data:/root/.openalgernon
+    stdin_open: true
+    tty: true
+
+volumes:
+  openalgernon-data:

@@ -1,0 +1,5 @@
+{
+  "name": "debate-agent",
+  "description": "Runs a structured debate session on a design decision extracted from the material. The user defends one side, the agent argues the other. Ends with a synthesis of when each approach wins.",
+  "tools": ["Bash"]
+}

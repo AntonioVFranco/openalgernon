@@ -1,0 +1,5 @@
+{
+  "name": "algernon-memory-saver",
+  "description": "Persists session outcomes to ~/.openalgernon/memory/. Called at the end of every study session by the orchestrator. Receives a session summary and writes it to the daily conversation log and updates MEMORY.md.",
+  "tools": ["Read", "Write", "Edit", "Bash"]
+}

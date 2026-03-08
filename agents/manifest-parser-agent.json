@@ -1,0 +1,5 @@
+{
+  "name": "manifest-parser-agent",
+  "description": "Clones a GitHub repository and validates its algernon.yaml manifest against AlgernonSpec v1. Returns the parsed manifest fields or a structured error listing validation failures.",
+  "tools": ["Bash", "Read"]
+}

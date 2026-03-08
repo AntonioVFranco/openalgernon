@@ -1,0 +1,5 @@
+{
+  "name": "evaluator-agent",
+  "description": "Evaluates user responses to dissertative and argumentative cards. Returns GRADE (GOOD or AGAIN), FEEDBACK (2-3 sentences), and MISCONCEPTION (specific false belief detected, or NULL). Called by session-agent after the user submits an open-ended answer.",
+  "tools": []
+}

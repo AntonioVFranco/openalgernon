@@ -1,0 +1,5 @@
+{
+  "name": "report-agent",
+  "description": "Formats and displays the progress report produced by stats-agent. Includes overall retention, per-material stats, weak areas, and a recommended study priority for the next session.",
+  "tools": ["Bash", "Read"]
+}

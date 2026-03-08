@@ -1,0 +1,5 @@
+{
+  "name": "algernon-memory-guardian",
+  "description": "Loads OpenAlgernon session context at the start of every session. Reads MEMORY.md and today's conversation log, then returns a structured briefing to the orchestrator.",
+  "tools": ["Read", "Glob", "Bash"]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "sprint-agent",
+  "description": "Runs a timed study sprint with mandatory interleaving across all installed materials. Supports 15, 25, and 45 minute durations. Includes a post-sprint retrieval test to measure actual retention gain.",
+  "tools": ["Task", "Bash"]
+}

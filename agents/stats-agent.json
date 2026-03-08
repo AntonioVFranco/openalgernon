@@ -1,0 +1,5 @@
+{
+  "name": "stats-agent",
+  "description": "Computes study statistics from SQLite: total cards, retention rate, cards due today, streak, and per-material breakdown. Returns structured stats for report-agent.",
+  "tools": ["Bash"]
+}

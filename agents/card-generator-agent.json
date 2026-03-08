@@ -1,0 +1,5 @@
+{
+  "name": "card-generator-agent",
+  "description": "Generates study cards from installed material content. Reads material files, generates cards per AlgernonSpec distribution (50/30/20 flashcard/dissertative/argumentative), and inserts them into SQLite. Cards start at N1 level. Also handles N2/N3 promotion when called by session-agent with a specific card to promote.",
+  "tools": ["Read", "Bash", "Glob"]
+}

@@ -1,5 +1,7 @@
 # OpenAlgernon
 
+<img width="2160" height="724" alt="openalgernon-logo" src="https://github.com/user-attachments/assets/7ba3e161-21b7-4968-aa5a-8c7319e3cf4f" />
+
 A Claude Code-native study platform for AI engineers.
 
 Study playbooks, handbooks, and papers published by the community

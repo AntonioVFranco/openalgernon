@@ -1,5 +1,6 @@
 ---
 name: algernon-debate
+version: "1.0.0"
 description: >
   Design trade-off debate mode for OpenAlgernon. Use when the user runs
   `/algernon debate [SLUG]`, says "quero debater [topic]", "me desafia sobre

@@ -1,5 +1,6 @@
 ---
 name: algernon-content
+version: "1.0.0"
 description: >
   Material and card management for OpenAlgernon. Use when the user runs any
   of: `/algernon install`, `list`, `info`, `update`, `remove`, `import`,

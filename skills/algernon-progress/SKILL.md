@@ -1,5 +1,6 @@
 ---
 name: algernon-progress
+version: "1.0.0"
 description: >
   Progress reporting, memory management, and session logging for OpenAlgernon.
   Use when the user runs `/algernon report`, says "ver progresso", "meu relatorio

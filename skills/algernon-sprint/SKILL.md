@@ -1,5 +1,6 @@
 ---
 name: algernon-sprint
+version: "1.0.0"
 description: >
   Timed interleaved study sprint for OpenAlgernon. Use when the user runs
   `/algernon sprint [15|25|45]`, says "sprint de estudo", "sessao cronometrada",

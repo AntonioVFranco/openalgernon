@@ -1,5 +1,6 @@
 ---
 name: algernon-feynman
+version: "1.0.0"
 description: >
   Feynman Technique study session for OpenAlgernon. Use when the user runs
   `/algernon feynman [SLUG]`, says "feynman", "quero explicar conceitos",

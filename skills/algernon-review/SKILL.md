@@ -1,5 +1,6 @@
 ---
 name: algernon-review
+version: "1.0.0"
 description: >
   FSRS-4.5 flashcard review session for OpenAlgernon. Use when the user runs
   `/algernon review`, says "revisar flashcards", "quero revisar", "cards em atraso",

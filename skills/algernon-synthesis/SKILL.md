@@ -1,5 +1,6 @@
 ---
 name: algernon-synthesis
+version: "1.0.0"
 description: >
   Cross-material knowledge synthesis session for OpenAlgernon. Use when the
   user runs `/algernon synthesis`, says "quero conectar os materiais",

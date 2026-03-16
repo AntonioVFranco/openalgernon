@@ -1,5 +1,6 @@
 ---
 name: algernon-interview
+version: "1.0.0"
 description: >
   Mock technical interview mode for OpenAlgernon. Use when the user runs
   `/algernon interview [SLUG]`, says "me entrevista sobre [material]",

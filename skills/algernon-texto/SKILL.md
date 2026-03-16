@@ -1,5 +1,6 @@
 ---
 name: algernon-texto
+version: "1.0.0"
 description: >
   Block-by-block reading mode for OpenAlgernon materials. Use when the user
   runs `/algernon texto SLUG`, `/algernon paper SLUG`, says "quero ler [material]",

@@ -1,5 +1,6 @@
 ---
 name: algernon-orchestrator
+version: "1.0.0"
 description: >
   Main orchestrator for the OpenAlgernon personal study system. Use this skill
   at the start of every study session, or whenever the user runs /algernon,

@@ -1,0 +1,5 @@
+{
+  "name": "fsrs-agent",
+  "description": "Computes FSRS-4.5 scheduling updates using SQLite native math functions. Receives a card_id and grade (1=Again, 3=Good), updates card_state, inserts a review record, and returns the next due date.",
+  "tools": ["Bash"]
+}

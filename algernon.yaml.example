@@ -1,0 +1,30 @@
+# algernon.yaml -- AlgernonSpec v1 example
+# Copy this file to your GitHub repo root and fill in the fields.
+
+algernonspec: "1"
+
+name: "Your Handbook Name"
+author: "Your Name"
+version: "1.0.0"
+description: "One sentence describing this material."
+tags: ["tag1", "tag2"]
+license: "CC-BY-4.0"
+
+content:
+  - title: "Chapter One Title"
+    path: "content/01-chapter-one.md"
+    type: text
+
+  - title: "Chapter Two Title"
+    path: "content/02-chapter-two.md"
+    type: text
+
+cards:
+  distribution: [50, 30, 20]
+  levels: ["N1", "N2", "N3"]
+  focus: ["key concept 1", "key concept 2", "key concept 3"]
+  difficulty: "intermediate"
+
+study:
+  default_mode: "texto"
+  language: "english"

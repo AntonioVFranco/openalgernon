@@ -1,0 +1,5 @@
+{
+  "name": "session-agent",
+  "description": "Runs the flashcard review loop for OpenAlgernon. Fetches due cards from SQLite, presents them via AskUserQuestion, grades them (calling evaluator-agent for open-ended cards), and calls fsrs-agent to update scheduling. Handles N1/N2/N3 promotion checks at end of session.",
+  "tools": ["Task", "Bash"]
+}

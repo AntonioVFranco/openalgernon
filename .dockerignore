@@ -1,0 +1,17 @@
+# Git metadata
+.git/
+.gitignore
+
+# Runtime user data — never bake into image
+data/
+memory/conversations/
+files/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Test artifacts
+tests/__pycache__/
+*.pyc

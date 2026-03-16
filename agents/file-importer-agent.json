@@ -1,0 +1,5 @@
+{
+  "name": "file-importer-agent",
+  "description": "Imports a local file (PDF, MD, or TXT) from ~/.openalgernon/files/ into OpenAlgernon. Reads the file natively, extracts content, creates a slug from the filename, registers the material in SQLite, and creates an initial deck ready for card generation.",
+  "tools": ["Read", "Write", "Bash", "Task"]
+}

@@ -1,0 +1,30 @@
+# SQLite databases
+*.db
+*.db-wal
+*.db-shm
+
+# Daemon files
+*.pid
+*.log
+
+# macOS
+.DS_Store
+
+# User data (never commit ~/.openalgernon/)
+data/
+memory/conversations/
+
+# Downloaded files
+files/*.pdf
+files/*.md
+files/*.txt
+files/*/
+
+# Editor
+.vscode/
+.idea/
+
+# Dev-only test materials
+.teste/
+# Internal agent instructions (not for end users)
+.claude/

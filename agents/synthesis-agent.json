@@ -1,0 +1,5 @@
+{
+  "name": "synthesis-agent",
+  "description": "Runs a cross-material synthesis session. Requires at least 2 installed materials with study initiated. Identifies overlapping concepts across materials and prompts the user to connect them explicitly.",
+  "tools": ["Bash"]
+}

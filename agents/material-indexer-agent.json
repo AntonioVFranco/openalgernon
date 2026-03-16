@@ -1,0 +1,5 @@
+{
+  "name": "material-indexer-agent",
+  "description": "Registers a validated AlgernonSpec material in the OpenAlgernon SQLite database. Receives the parsed manifest summary from manifest-parser-agent and inserts into the materials table.",
+  "tools": ["Bash"]
+}

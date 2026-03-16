@@ -1,0 +1,25 @@
+services:
+  openalgernon:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    environment:
+      # Override ALGERNON_HOME if you want data outside the container volume.
+      # Default: /root/.openalgernon (managed by the named volume below).
+      - ALGERNON_HOME=${ALGERNON_HOME:-/root/.openalgernon}
+      # Notion integration (optional). Set in your shell or a .env file.
+      - NOTION_API_KEY=${NOTION_API_KEY:-}
+      - NOTION_CLI=${NOTION_CLI:-notion-cli}
+    volumes:
+      # User data (DB, materials, memory) persists across container restarts.
+      - openalgernon-data:/root/.openalgernon
+      # Mount local files for import: docker cp file.pdf container:/root/.openalgernon/files/
+      # or bind-mount a host directory:
+      # - ./my-files:/root/.openalgernon/files
+    stdin_open: true
+    tty: true
+
+volumes:
+  openalgernon-data:
+    # Named volume — survives container rebuild.
+    # To reset all user data: docker volume rm openalgernon_openalgernon-data

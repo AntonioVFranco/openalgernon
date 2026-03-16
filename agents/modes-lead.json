@@ -1,0 +1,5 @@
+{
+  "name": "modes-lead",
+  "description": "Leader of the modes team. Routes mode commands from the orchestrator to feynman-agent, interview-agent, sprint-agent, debate-agent, or synthesis-agent.",
+  "tools": ["Task"]
+}

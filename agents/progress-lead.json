@@ -1,0 +1,5 @@
+{
+  "name": "progress-lead",
+  "description": "Leader of the progress team. Invokes stats-agent then report-agent to produce and display the full progress report.",
+  "tools": ["Task"]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "feynman-agent",
+  "description": "Runs a Feynman Technique session on an installed material. Presents a concept and asks the user to explain it in plain terms. Evaluates accuracy, depth, and transfer. Uses Socratic follow-ups rather than revealing answers when dimensions fail.",
+  "tools": ["Bash"]
+}

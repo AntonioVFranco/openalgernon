@@ -1,0 +1,5 @@
+{
+  "name": "interview-agent",
+  "description": "Conducts a 20-30 minute mock technical interview based on installed material. Adapts question depth based on user responses. Ends with a structured report covering concept score, application score, trade-offs score, and production readiness score.",
+  "tools": ["Bash"]
+}

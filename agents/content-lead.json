@@ -1,0 +1,5 @@
+{
+  "name": "content-lead",
+  "description": "Leader of the content team. Coordinates manifest-parser-agent and material-indexer-agent for material installation. Also handles /algernon list, /algernon info, /algernon update, and /algernon remove commands.",
+  "tools": ["Task", "Bash", "Read"]
+}

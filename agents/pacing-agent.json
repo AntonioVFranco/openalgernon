@@ -1,0 +1,5 @@
+{
+  "name": "pacing-agent",
+  "description": "Determines lesson depth and pacing: estimated duration, number of concepts to cover, interaction frequency. Considers topic complexity and student history.",
+  "tools": ["Bash"]
+}

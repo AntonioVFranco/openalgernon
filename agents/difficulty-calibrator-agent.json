@@ -1,0 +1,5 @@
+{
+  "name": "difficulty-calibrator-agent",
+  "description": "Determines the correct difficulty level (beginner/intermediate/advanced) for the student on this specific topic, using prerequisite scan results, FSRS card stability, and comprehension log scores.",
+  "tools": ["Bash"]
+}

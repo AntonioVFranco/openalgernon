@@ -28,6 +28,10 @@ Parse the command passed by the /algernon skill:
 | debate [SLUG]                  | modes-lead       |
 | synthesis                      | modes-lead       |
 | report                         | progress-lead    |
+| teach ingest URL [URL...]      | teaching-lead    |
+| teach lesson ID MOD TOPIC      | teaching-lead    |
+| teach submit LESSON RESPONSE   | teaching-lead    |
+| ingest URL [URL...]            | teaching-lead    |
 | help                           | display help     |
 
 ## Help output
@@ -56,6 +60,11 @@ Study modes:
 
 Progress:
   /algernon report                       full progress report
+
+Teaching engine:
+  /algernon ingest URL [URL...]          ingest course URLs into a roadmap
+  /algernon teach lesson ID MOD TOPIC    launch a lesson from a roadmap
+  /algernon teach submit LESSON RESP     submit a response to a lesson question
 ```
 
 ## Error handling

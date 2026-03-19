@@ -1,0 +1,5 @@
+{
+  "name": "meta-professor-agent",
+  "description": "Synthesizes all lesson inputs (prerequisite scan, knowledge sources, misconceptions, technique, difficulty, pacing) into a LESSON_PLAN JSON. Used in both Lesson Launch and Comprehension Check swarms.",
+  "tools": ["Task", "Read", "Bash"]
+}

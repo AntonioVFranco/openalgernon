@@ -1,0 +1,5 @@
+{
+  "name": "teaching-lead",
+  "description": "Coordinates the three teaching swarms: Ingestion (URL → roadmap), Lesson Launch (topic → lesson), Comprehension Check (student response → next action). Dispatches agents in parallel per swarm. Entry point for all 'teach', 'ingest', and 'lesson' commands.",
+  "tools": ["Task", "Bash", "Read"]
+}

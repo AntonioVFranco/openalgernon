@@ -1,0 +1,5 @@
+{
+  "name": "curated-rag-agent",
+  "description": "Retrieves content about a topic from curated sources per discipline (Khan Academy, 3Blue1Brown for math; MDN/CS50 for CS; arXiv/HuggingFace for AI; Cambridge guidelines for English). Returns structured excerpts.",
+  "tools": ["WebFetch", "Bash"]
+}

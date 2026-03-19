@@ -1,0 +1,5 @@
+{
+  "name": "web-search-agent",
+  "description": "Performs open web search for recent or emergent topics. Used primarily for AI Engineering (sources < 18 months). Returns search results with title, URL, and snippet.",
+  "tools": ["WebSearch", "Bash"]
+}

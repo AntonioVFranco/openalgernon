@@ -1,0 +1,5 @@
+{
+  "name": "comprehension-scorer-agent",
+  "description": "Scores a student's response to a lesson question on a 0.0-1.0 scale. Evaluates accuracy, completeness, and depth. Writes score to comprehension_log.",
+  "tools": ["Bash"]
+}

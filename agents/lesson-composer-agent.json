@@ -1,0 +1,5 @@
+{
+  "name": "lesson-composer-agent",
+  "description": "Assembles the final lesson from the LESSON_PLAN. Produces the actual student-facing lesson content (explanation, examples, questions) and writes it to the lesson_state table.",
+  "tools": ["Bash", "Read"]
+}

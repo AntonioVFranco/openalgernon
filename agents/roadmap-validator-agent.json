@@ -1,0 +1,5 @@
+{
+  "name": "roadmap-validator-agent",
+  "description": "Validates the roadmap just written to the roadmaps table: checks completeness (all disciplines classified), coherence (no duplicate IDs), and sequencing (prerequisites precede dependents). Reports any issues.",
+  "tools": ["Bash"]
+}

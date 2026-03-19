@@ -1,0 +1,5 @@
+{
+  "name": "misconception-detector-agent",
+  "description": "Identifies whether a student response contains a specific cataloged misconception. Reads the discipline profile and the lesson's misconception list. Returns the identified misconception if any.",
+  "tools": ["Read", "Bash"]
+}

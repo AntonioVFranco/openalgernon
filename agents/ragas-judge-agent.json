@@ -1,0 +1,5 @@
+{
+  "name": "ragas-judge-agent",
+  "description": "Evaluates the quality of each retrieved source on 4 RAGAS dimensions: faithfulness (0.7), relevance (0.8), precision (0.7), recency (AI: < 18 months). Filters out sources that fail thresholds.",
+  "tools": ["Bash"]
+}

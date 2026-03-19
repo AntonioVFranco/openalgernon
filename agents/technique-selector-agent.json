@@ -1,0 +1,5 @@
+{
+  "name": "technique-selector-agent",
+  "description": "Selects the optimal pedagogical technique (1 of 12) for the lesson based on student level, prior exposure, comprehension history, and discipline profile. Returns technique name and rationale.",
+  "tools": ["Read", "Bash"]
+}

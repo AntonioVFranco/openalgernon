@@ -1,0 +1,5 @@
+{
+  "name": "prerequisite-scanner-agent",
+  "description": "Checks what the student already knows about a topic by querying their comprehension_log and lesson_state history. Returns a prior-knowledge summary for the meta-professor.",
+  "tools": ["Bash"]
+}

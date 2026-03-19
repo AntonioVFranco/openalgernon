@@ -1,0 +1,5 @@
+{
+  "name": "roadmap-builder-agent",
+  "description": "Synthesizes curriculum.json and classification.json from an ingestion job into an AlgernonSpec-compatible roadmap. Inserts the roadmap into the roadmaps table in study.db.",
+  "tools": ["Bash", "Read"]
+}

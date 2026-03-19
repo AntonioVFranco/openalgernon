@@ -1,0 +1,5 @@
+{
+  "name": "page-scraper-agent",
+  "description": "Fetches a single course landing page URL and extracts structured content (title, headings, module candidates, body text) for curriculum analysis. Writes output JSON to /tmp/algernon-ingest/<job_id>/scraped/.",
+  "tools": ["WebFetch", "Bash"]
+}

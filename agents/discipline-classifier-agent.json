@@ -1,0 +1,5 @@
+{
+  "name": "discipline-classifier-agent",
+  "description": "Reads the extracted curriculum and classifies each module and topic to a discipline (math, cs, ai-engineering, english) and level (beginner, intermediate, advanced). Writes classification.json to the job directory.",
+  "tools": ["Bash", "Read"]
+}

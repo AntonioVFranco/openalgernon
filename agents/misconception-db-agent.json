@@ -1,0 +1,5 @@
+{
+  "name": "misconception-db-agent",
+  "description": "Returns the canonical list of misconceptions for a topic+discipline from the teaching profiles. Surfaces the 2-4 most likely errors a student will make on this topic.",
+  "tools": ["Read"]
+}

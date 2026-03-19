@@ -1,0 +1,5 @@
+{
+  "name": "llm-knowledge-agent",
+  "description": "Produces a structured knowledge summary about a topic using the LLM's own knowledge (no retrieval). Covers: core concept, why it matters, key sub-concepts, common confusion points.",
+  "tools": ["Bash"]
+}

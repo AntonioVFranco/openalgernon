@@ -1,0 +1,5 @@
+{
+  "name": "curriculum-extractor-agent",
+  "description": "Reads scraped page content from /tmp/algernon-ingest/<job_id>/scraped/ and extracts a structured curriculum: modules and topics. Writes curriculum.json to the job directory.",
+  "tools": ["Bash", "Read"]
+}
